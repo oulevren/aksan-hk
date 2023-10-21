@@ -1,0 +1,353 @@
+.header{
+    width: 100%;
+    background: linear-gradient(rgba(12, 18, 99, 0.8),rgba(0,0,0,0.5)), url(img-aksan/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-dil ul{
+    list-style: none;
+}
+.header-dil ul li a{
+   text-decoration: none;
+   color: white;
+}
+.lang ul{
+    margin-left: auto;
+}
+.lang li{
+    margin-left: 1rem;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: white;
+}
+.header-content{
+    height: 50vh;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.sec1 ul li{
+    list-style: none;
+}
+.sec1 ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.detay{
+    color: #990033;
+}
+input{
+    border: none;
+    border-bottom: 1px solid gray ;
+    outline: none;
+    height: 50px;
+    width: 100%;
+}
+select{
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-top: 2rem;
+    height: 40px;
+    width: 100%;
+}
+.arabtn button{
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+li:active{
+    color: #990033;
+}
+ul li a:hover{
+    color: red;
+}
+.arabtn button:hover{
+    background-color: darkblue;
+}
+.sec1-ul ul li a{
+    margin-right: 8px;
+    
+}
+.arabtn:hover{
+    background-color: #990033;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* ANASAYFA */
+
+.header1{
+    width: 100%;
+    height: 50vh;
+    background-image:  linear-gradient(rgba(10, 3, 51, 0.5), rgba(4, 2, 26, 0.6)),url(img-aksan/kimlik.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+}
+.header6{
+    width: 100%;
+    height: 50vh;
+    background-image:  linear-gradient(rgba(10, 3, 51, 0.5), rgba(4, 2, 26, 0.6)),url(img-aksan/tokyo.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+}
+.middle-img{
+    height: 40vh;
+    background-image:  linear-gradient(rgba(10, 3, 51, 0.5), rgba(4, 2, 26, 0.6)),url(img-aksan/istanbul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+}
+.middle-img-1{
+    height: 40vh;
+    background-image:  linear-gradient(rgba(10, 3, 51, 0.5), rgba(4, 2, 26, 0.6)),url(img-aksan/teknopark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+}
+.header-content h3{
+    letter-spacing: 7px;
+}
+.header8 {
+    position: fixed; /* Sabit konum */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 1000; /* Navbar'ın üzerinde görünmesi için */
+}
+body {
+    background-color: transparent;
+    transition: background-color 0.3s ease; /* Akıcı bir geçiş efekti için */
+  }
+  body .scrolled-down {
+    background-color: white;
+  }
+body ::selection{
+    color: black;
+    background-color: gray;
+}
+
+.scroll-up ul li a{
+    color: gray;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 19px;
+}
+.scroll-up ul{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 3.5rem;
+}
+.scroll-up ul li{
+    list-style: none;
+}
+.scroll-up ul li a:hover{
+    color: brown;
+    transition: 0.5s;
+}
+.scroll-down{
+    text-align: start;
+    font-size: 15px;
+}
+.scroll-mid{
+    width: 40%;
+    height: 50vh;
+    margin: auto;
+}
+
+.footer-up{
+    background-image: linear-gradient(rgba(10, 10, 12, 0.7), rgba(0, 0, 0, 0.8)),url(img-aksan/footer.jpg);
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content-footer-up{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding-top: 6rem;
+    color: white;
+}
+.btn{
+    color: white;
+    border-bottom: 2px solid white;
+    padding-top: 4rem;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(9, 9, 36);
+    color: white;
+}
+.sec2 ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.sec2 ul li{
+    list-style: none;
+}
+.sec3 ul li{
+    display: block;
+   
+}
+.sec3 ul li a{
+    list-style: none;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.sec4 ul li a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none
+}
+.sec4 ul li{
+    list-style: none;
+}
+.sec5 ul li a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.sec5 ul li{
+    list-style: none;
+}
+.input-group input{
+    background-color: transparent;
+    height: 40px;
+    border-radius: 0;
+    border: 2px solid white;
+}
+.input-group span{
+    background-color: transparent;
+    border-radius: 0;
+    border: 2px solid white;
+}
+.input-group span:hover{
+    background-color: white;
+    transition: 0.8s;
+}
+.header2{
+    width: 100%;
+    height: 50vh;
+    background-image:  linear-gradient(rgba(10, 3, 51, 0.5), rgba(4, 2, 26, 0.6)),url(img-aksan/hizmetlerimiz.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+}
+.img1{
+    width: 100%;
+    height: 40vh;
+    background-image:  linear-gradient(rgba(10, 3, 51, 0.5), rgba(4, 2, 26, 0.6)),url(img-aksan/kariyer...jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+}
+.header3{
+    width: 100%;
+    height: 50vh;
+    background-image:  linear-gradient(rgba(10, 3, 51, 0.5), rgba(4, 2, 26, 0.6)),url(img-aksan/kariyer...jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+}
+
+.head .a1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    line-height: 2.5rem;
+}
+.head ul li{
+    list-style: none;
+  
+} 
+.sectionab ul li{
+    list-style: none;
+    text-align: center;
+}
+
+.footer-up1{
+    background-image: linear-gradient(rgba(10, 10, 12, 0.7), rgba(0, 0, 0, 0.8)),url(img-aksan/beyaz-ofis-tasarimi.jpg);
+    width: 100%;
+    height: 45vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body::-webkit-scrollbar {
+    width: 15px; 
+  }
+  .body::-webkit-scrollbar-track {
+    background: #fff; 
+  }
+  body::-webkit-scrollbar-thumb {
+    background: #494646; 
+    border-radius: 10px;
+  }
+  body::-webkit-scrollbar-thumb:hover {
+    background: #161616; 
+  }
+  .option select{
+    color: gray;
+    border-bottom: 1px solid gray;
+    font-size: 13px;
+  }
+  .option select{
+    color: gray;
+  }
+
+@media screen and (max-width: 800px) {
+    .scroll-up ul{
+        display: block;
+        justify-content: center;
+        gap: 100px;
+        margin-top: 3.5rem;
+    }
+    .scroll-down{
+        text-align: start;
+        font-size: 15px;
+        width: 100%;
+    }
+    .scroll-mid{
+        width: 80%;
+        height: 80vh;
+        margin: auto;
+    }
+    .footer-up{
+        background-image: linear-gradient(rgba(10, 10, 12, 0.7), rgba(0, 0, 0, 0.8)),url(img-aksan/footer.jpg);
+        width: 100%;
+        height: 80vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .content-footer-up{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        padding-top: 6rem;
+        color: white;
+    }
+    
+}
+
